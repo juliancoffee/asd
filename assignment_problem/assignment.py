@@ -12,7 +12,7 @@ for i in range(n):
     print(i, work_matrix[i])
 print("\n")
 
-perms = list(itertools.permutations(range(n)))
+perms = itertools.permutations(range(n))
 
 res = float("inf")
 for perm in perms:
